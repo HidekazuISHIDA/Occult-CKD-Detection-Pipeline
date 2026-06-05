@@ -1,0 +1,23 @@
+# Data files (not to be shared due to patient privacy)
+*.csv
+!data_format.md
+
+# Output directories
+out_final/
+outputs_ckd_pipeline/
+out_*/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# JSON metadata outputs
+runmeta_*.json
